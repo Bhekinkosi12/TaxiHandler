@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Shell.NavBarIsVisible="False" Shell.TabBarIsVisible="False"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="WhiteSmoke"
+             x:Class="TaxiHandler.Views.FrontPage">
+    <ContentPage.Content>
+        <Frame Margin="30" CornerRadius="26" BackgroundColor="White"  >
+
+            <Grid >
+                <Grid.RowDefinitions>
+                   
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                
+
+                        <Image Source="BrandBack.jpg" Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Center" />
+
+
+
+
+
+
+                <Frame Padding="0" BackgroundColor="Transparent" VerticalOptions="End" Grid.Row="1" >
+
+                    <Frame Padding="0" BackgroundColor="Orange" Margin="15,5" CornerRadius="20" >
+
+                        <Button BackgroundColor="Transparent" x:Name="Change" Clicked="Change_Clicked" Text="Give Change" TextColor="White" FontSize="20" />
+                    </Frame>
+                    
+                </Frame>
+                  
+                    
+                    
+             
+                
+                
+                
+            </Grid>
+            
+            
+            
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
